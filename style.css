@@ -1,0 +1,73 @@
+/* Main content section */
+.content-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Đảm bảo chiều cao đều nhau */
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  height: 100%; /* Đảm bảo các phần tử có chiều cao đồng đều */
+}
+
+.content-section:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Thêm một chút đệm cho cột */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-md-4 {
+  flex: 1 1 30%; /* Đảm bảo rằng mỗi cột có chiều rộng đồng đều */
+  margin-bottom: 20px; /* Khoảng cách giữa các cột */
+}
+
+/* Background for jumbotron */
+.jumbotron {
+  background-image: url("images/Canon\ background\ hero.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 25px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* Styling for the main content columns */
+.content-section {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-section:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer styling */
+footer {
+  background-color: #343a40;
+  color: #f8f9fa;
+}
+
+/* Custom button style */
+.btn-custom {
+  background-color: #007bff;
+  border-color: #007bff;
+  transition: background-color 0.3s;
+}
+
+.btn-custom:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
