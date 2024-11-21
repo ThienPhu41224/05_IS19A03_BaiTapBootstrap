@@ -1,12 +1,3 @@
-/* Page styles */
-header .navbar-brand {
-  padding: 8px 16px;
-}
-
-.btn-custom {
-  color: #fff; /* Thay đổi màu chữ theo ý muốn */
-}
-
 /* Image Gallery */
 /* Main content section */
 .content-section {
@@ -82,29 +73,6 @@ footer {
   border-color: #0056b3;
 }
 
-/* Pricing Table */
-body .pricing-table .bg-primary {
-  background-color: rgba(13, 110, 253, 1);
-}
-body .pricing-table {
-  background-color: #f8f9fa;
-}
-.pricing-table .pricing-header {
-  margin: 2rem 0;
-  text-align: center;
-}
-.pricing-table .card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.pricing-table .card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
-.pricing-table .btn-outline-primary:hover {
-  background-color: #007bff;
-  color: #fff;
-}
-
 /* Contact Form */
 body .contact-form {
   background: linear-gradient(to bottom right, #6a11cb, #2575fc);
@@ -122,7 +90,6 @@ body .contact-form .jumbotron {
   background: rgba(255, 255, 255, 0.2);
   border-radius: 15px;
   padding: 2.5rem;
-  margin-bottom: 3rem;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
   backdrop-filter: blur(10px);
 }
@@ -156,6 +123,26 @@ body .contact-form .jumbotron {
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
-.contact-form .container.my-5 {
-  margin-bottom: 0 !important; /* Xóa khoảng cách dưới */
+
+/* Pricing Table */
+body .pricing-table .bg-primary {
+  background-color: rgba(13, 110, 253, 1);
+}
+body .pricing-table {
+  background-color: #f8f9fa;
+}
+.pricing-table .pricing-header {
+  margin: 2rem 0;
+  text-align: center;
+}
+.pricing-table .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.pricing-table .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.pricing-table .btn-outline-primary:hover {
+  background-color: #007bff;
+  color: #fff;
 }
